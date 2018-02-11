@@ -1,4 +1,4 @@
-# AI-A1
+# AI Mini Projects
 
 ## Six Puzzle Solver
 A variation on a [slider puzzle game](https://en.wikipedia.org/wiki/15_puzzle), which solves the puzzle using a variety of search algorithms.
