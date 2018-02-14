@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import random
 from itertools import product
 
-
+Y = lambda x: np.sin(x**2 / 2) / np.log2(x + 4)
 def hill_climb(x_0, step_size):
 
 	current = x_0
@@ -109,7 +109,6 @@ def plotHillClimbing():
 
 	optima_hc = []
 	starting_points = list(range(11))
-	Y = lambda x: np.sin(x**2 / 2) / np.log2(x + 4)
 	step_sizes = [x * 0.01 for x in range(1, 10)]
 	params = list(product(*[starting_points, step_sizes]))
 
