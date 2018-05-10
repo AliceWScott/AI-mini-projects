@@ -219,9 +219,6 @@ def solveIDS(start):
 
 if __name__ == "__main__":
 
-	import sys
-	sys.setrecursionlimit(10000)
-
 	board = [[1,4,2],[5,3,None]]
 	puzzle = SixPuzzle(board)
 	path = solveBFS(puzzle)
